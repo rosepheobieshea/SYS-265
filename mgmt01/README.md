@@ -1,1 +1,1 @@
-some random junk
+mgmt01-rose
