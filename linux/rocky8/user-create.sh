@@ -8,6 +8,7 @@ read name
 #read key_path
 
 sudo useradd -m -d /home/$name -s /bin/bash $name
+passwd $user
 sudo mkdir /home/$name/.ssh
 #sudo cp $key_path /home/$name/.ssh/authorized_keys
 sudo chmod 700 /home/$name/.ssh
